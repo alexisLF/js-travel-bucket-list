@@ -9,4 +9,4 @@ const visitSchema = mongoose.Schema({
   wished: {type: Boolean, required: true}
 });
 
-module.exports = mongoose.model('visit', visitSchema);
+module.exports = mongoose.model('Visit', visitSchema);
